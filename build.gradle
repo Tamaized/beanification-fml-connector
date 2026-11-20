@@ -186,6 +186,7 @@ dependencies {
 
 test {
 	useJUnitPlatform()
+	failOnNoDiscoveredTests = false
 	testLogging {
 		events "failed"
 
